@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-
+  name!: string;
+  lastName!: string;
+  email!: string;
+  password!:  string;
+  
+  constructor (){
+    /*
+    aqui va la logica de validacion de contraseñas.
+  */
+  }
+  register(){
+    console.log(this.name);
+    console.log(this.lastName);
+    console.log(this.email);
+    console.log(this.password);
+  }
 }

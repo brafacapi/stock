@@ -1,20 +1,36 @@
-<div class="container">
-    <div class="nav justify-content-center">
-        <div class="row g-3 align-items-center">
-            <div class="col-auto">
-            <label for="inputPassword6" class="col-form-label">Usuario</label>
+<section class="gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+              <div class="mb-md-5 mt-md-4 pb-5">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Ingreso</h2>
+                <p class="text-white-50 mb-5">Por favor ingresa correo y contraseña!</p>
+                <form class="custom-form">
+                    <div class="form-outline form-white mb-4">
+                    <input name= "email" [(ngModel)]="email" type="email" id="typeEmailX" class="form-control form-control-lg"/>
+                    <label class="form-label" for="typeEmailX">Correo</label>
+                    </div>
+                    
+                    <div class="form-outline form-white mb-4">
+                    <input name= "password" [(ngModel)]="password" type="password" id="typePasswordX" class="form-control form-control-lg" />
+                    <label class="form-label" for="typePasswordX">Contraseña</label>
+                    </div>
+                
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" (click)="login()">Validar</button>
+            </form>
+              </div>
+  
+              <div>
+                <p class="mb-0">No estas registrado? <a href="/register" class="text-white-50 fw-bold">Registrar</a>
+                </p>
+              </div>
+  
             </div>
-            <div class="col-auto">
-            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-            </div>
+          </div>
         </div>
-        <div class="row g-3 align-items-center">
-            <div class="col-auto">
-            <label for="inputPassword6" class="col-form-label">Password</label>
-            </div>
-            <div class="col-auto">
-            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-            </div>
-        </div>
+      </div>
     </div>
-</div>
+  </section>

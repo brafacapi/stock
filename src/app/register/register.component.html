@@ -12,13 +12,13 @@
                                 <div class="col-md-6 mb-4">
                                     <div class="form-outline">
                                     <input name= "name" [(ngModel)]="name" type="text" id="nameRegister" class="form-control" />
-                                    <label class="form-label" for="form3Example1">Nombres</label>
+                                    <label class="form-label" for="nameRegister">Nombres</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <div class="form-outline">
                                     <input name= "lastName" [(ngModel)]="lastName" type="text" id="lastnameRegister" class="form-control" />
-                                    <label class="form-label" for="form3Example2">Apellidos</label>
+                                    <label class="form-label" for="lastnameRegister">Apellidos</label>
                                     </div>
                                 </div>
                                 </div>
@@ -26,13 +26,19 @@
                                 <!-- Email input -->
                                 <div class="form-outline mb-4">
                                 <input name= "email" [(ngModel)]="email" type="email" id="emailRegister" class="form-control" />
-                                <label class="form-label" for="form3Example3">Correo Electronico</label>
+                                <label class="form-label" for="emailRegister">Correo Electronico</label>
                                 </div>
                 
                                 <!-- Password input -->
                                 <div class="form-outline mb-4">
                                 <input name= "password" [(ngModel)]="password" type="password" id="passwordRegister" class="form-control" />
-                                <label class="form-label" for="form3Example4">Contraseña</label>
+                                <label class="form-label" for="passwordRegister">Contraseña</label>
+                                </div>   
+
+                                <!-- Roll input -->
+                                <div class="form-outline mb-4">
+                                <input name= "roll" [(ngModel)]="roll" type="text" id="rollRegister" class="form-control" />
+                                <label class="form-label" for="rollRegister">Rol</label>
                                 </div>          
                                 
                             </form>

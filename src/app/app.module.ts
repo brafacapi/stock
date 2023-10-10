@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { IndexComponent } from './index/index.component';
+import { UsersAdminComponent } from './users-admin/users-admin.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    IndexComponent
+    IndexComponent,
+    UsersAdminComponent
   ],
   imports: [
     BrowserModule,

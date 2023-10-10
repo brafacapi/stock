@@ -3,12 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { IndexComponent } from './index/index.component';
+import { UsersAdminComponent } from './users-admin/users-admin.component';
 
 
 const routes: Routes = [
 { path: 'login', component: LoginComponent},
 { path: 'register', component: RegisterComponent},
 { path: 'init', component: IndexComponent},
+{ path: 'userAdmin', component: UsersAdminComponent},
 { path: '', redirectTo: 'init', pathMatch: 'full'}
 ];
 

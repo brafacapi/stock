@@ -10,6 +10,7 @@ export class RegisterComponent {
   lastName!: string;
   email!: string;
   password!:  string;
+  roll!: string;
   
   constructor (){
     /*
@@ -21,5 +22,6 @@ export class RegisterComponent {
     console.log(this.lastName);
     console.log(this.email);
     console.log(this.password);
+    console.log(this.roll);
   }
 }

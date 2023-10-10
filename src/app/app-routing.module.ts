@@ -10,7 +10,6 @@ const routes: Routes = [
 { path: 'register', component: RegisterComponent},
 { path: 'init', component: IndexComponent},
 { path: '', redirectTo: 'init', pathMatch: 'full'}
-
 ];
 
 @NgModule({
